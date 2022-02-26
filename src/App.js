@@ -1,25 +1,35 @@
-import logo from './logo.svg';
 import './App.css';
+import { Layout } from 'antd';
+import HeaderFile from './Components/HeaderFile';
+import ContentFile from './Components/ContentFile';
+import SiderFile from './Components/SiderFile';
+import MobileHeader from './Components/MobileHeader';
+import useWindowSize from './WindowSize';
+
+const { Header, Sider, Content } = Layout;
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  const {width, height} = useWindowSize();
+  if (width>600 && height>844) {
+    return (
+      <div>
+        <Layout style={{height:"100vh"}}>
+          <Header><HeaderFile/></Header>
+          <Layout>
+            <Content><ContentFile/></Content>
+            <Sider><SiderFile/></Sider>
+          </Layout>
+        </Layout>
+      </div>
+    );
+  } else {
+    return (
+    <Layout>
+      <Header><MobileHeader/></Header>
+      <Content><ContentFile/></Content>
+    </Layout>
+    );
+  }
 }
 
 export default App;
