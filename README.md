@@ -5,7 +5,7 @@
 
 <h2>Mobile View</h2>
 
-[Screenshot 2022-02-26 164204](https://user-images.githubusercontent.com/76250685/155841149-35b34cfb-c102-469b-98b9-51ba3ab2642f.png)
+![Screenshot 2022-02-26 164204](https://user-images.githubusercontent.com/76250685/155841149-35b34cfb-c102-469b-98b9-51ba3ab2642f.png)
 
 
 # Getting Started with Create React App
