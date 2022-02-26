@@ -1,8 +1,10 @@
 <h1>Screenshots</h1>
 <h2>Desktop View</h2>
-[Screenshot 2022-02-26 164050](https://user-images.githubusercontent.com/76250685/155841126-0c947bc3-357c-4d7d-9c41-e3e697c1631a.png)
+
+![Screenshot 2022-02-26 164050](https://user-images.githubusercontent.com/76250685/155841228-9c0ac4fb-4125-4b93-9edb-4acfcc7e0b5b.png)
 
 <h2>Mobile View</h2>
+
 [Screenshot 2022-02-26 164204](https://user-images.githubusercontent.com/76250685/155841149-35b34cfb-c102-469b-98b9-51ba3ab2642f.png)
 
 
