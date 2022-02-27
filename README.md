@@ -1,12 +1,11 @@
 <h1>Screenshots</h1>
 <h2>Desktop View</h2>
 
-![Screenshot 2022-02-26 164050](https://user-images.githubusercontent.com/76250685/155841228-9c0ac4fb-4125-4b93-9edb-4acfcc7e0b5b.png)
+![Screenshot 2022-02-27 190549](https://user-images.githubusercontent.com/76250685/155884639-c616544e-6705-43c6-bac0-b489b24b625c.png)
 
 <h2>Mobile View</h2>
 
-![Screenshot 2022-02-26 164204](https://user-images.githubusercontent.com/76250685/155841149-35b34cfb-c102-469b-98b9-51ba3ab2642f.png)
-
+![Screenshot 2022-02-27 190707](https://user-images.githubusercontent.com/76250685/155884651-60d698a0-d89f-4ade-bfa8-57eed871c09e.png)
 
 # Getting Started with Create React App
 
