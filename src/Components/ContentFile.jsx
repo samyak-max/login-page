@@ -19,10 +19,10 @@ const ContentFile = () => {
 
     const success = () => {
       message.success({
-        content: 'This is a success message'});
+        content: 'Success'});
     };
     const error = () => {
-      message.error('This is an error message');
+      message.error('Error');
     };
 
     let credentials = {email, password};
