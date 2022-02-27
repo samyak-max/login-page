@@ -76,4 +76,11 @@
   .ant-layout-sider{
     display: none;
   }
+  .header-btn{
+    display: none;
+  }
+  .login-header-btn{
+    display: none;
+  }
+
 }
