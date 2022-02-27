@@ -1,30 +1,36 @@
 @import '~antd/dist/antd.css';
-@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
 
-.anticon svg{
-  height: 35px;
-  width: 35px;
+
+.logo{
+  height: 38px;
+  width: 38px;
   margin: 14.5px 0;
+  color: #023047;;
 }
 
 .ant-layout-header{
   padding: 0 20px;
-  background-color: #f1f2f6;
+  background-color: white;
 }
-
 .header-btn{
-  background: linear-gradient(90deg, #fc4a1a 0%, #f7b733 100%);
+  background: #023047;
+  border: none;
+  float: right;
+  margin: 14.5px 5px;
+}
+.login-header-btn{
+  background-color: #fb8501;
   border: none;
   float: right;
   margin: 14.5px 5px;
 }
 .ant-btn-primary{
-  background: linear-gradient(90deg, #fc4a1a 0%, #f7b733 100%);
   border: none;
 }
 
 .ant-layout-sider{
-  min-width: 55% !important;
+  min-width: 60% !important;
 }
 
 .bgImage{
@@ -34,21 +40,37 @@
 }
 
 .ant-layout-content{
-  text-align: center;
   background-color: white;
 }
 
 .login-form-button {
+  background-color: #023047;
   width: 100%;
 }
 .welcome{
-  padding-top: 15%;
-  font-size: 60px;
-  font-family: 'Parisienne', cursive;
+  text-align: center;
+  padding-top: 30%;
+  font-size: 30px;
+  color: #00161f;
+  font-family: 'Inter', sans-serif;
 }
 .login-form {
   max-width: 300px;
   margin: auto;
 }
+.login-form-forgot {
+  float: right;
 
+}
+.ant-input-affix-wrapper{
+  height: 50px;
+}
+.success-msg{
+  font-size: small;
+}
 
+@media screen and (max-width:600px) {
+  .welcome{
+    padding-top: 30%;
+  }
+}

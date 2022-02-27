@@ -2,6 +2,7 @@ import { Form, Input, Button, Checkbox } from 'antd';
 import { UserOutlined, LockOutlined } from '@ant-design/icons';
 // import Password from 'antd/lib/input/Password';
 import { useState } from 'react';
+import { message } from 'antd';
 
 
 const ContentFile = () => {
@@ -15,6 +16,15 @@ const ContentFile = () => {
   };
 
   const login = async () => {
+
+    const success = () => {
+      message.success({
+        content: 'This is a success message'});
+    };
+    const error = () => {
+      message.error('This is an error message');
+    };
+
     let credentials = {email, password};
     let result = await fetch("https://reqres.in/api/login", {
       method: 'POST',
@@ -27,13 +37,12 @@ const ContentFile = () => {
     result = await result.json()
     console.log(result)
     if (result.token === 'QpwL5tke4Pnpja7X4'){
-      alert("SUCCESS!")
+      success()
     }
     else {
-      alert("ERROR!")
+      error()
     }
   }
-
 
   return (
     <>
@@ -73,21 +82,21 @@ const ContentFile = () => {
           onChange={(e)=>setPassword(e.target.value)}
         />
       </Form.Item>
-      <Form.Item>
-        <Form.Item name="remember" valuePropName="checked" noStyle>
-          <Checkbox>Remember me</Checkbox>
-        </Form.Item>
-
-        <a className="login-form-forgot" href="/">
-          Forgot password
-        </a>
-      </Form.Item>
 
       <Form.Item>
         <Button type="primary" htmlType="submit" onClick={login} className="login-form-button">
           Log in
         </Button>
-        Or <a href="/">register now!</a>
+
+        <Form.Item>
+        <Form.Item name="remember" valuePropName="checked" noStyle>
+          <Checkbox>Remember me</Checkbox>
+        </Form.Item>
+
+        <a className="login-form-forgot" href="/">
+          Forgot password?
+        </a>
+      </Form.Item>
       </Form.Item>
     </Form>
     </>

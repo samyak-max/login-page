@@ -1,12 +1,8 @@
-import { ThunderboltTwoTone } from '@ant-design/icons';
-
 
 function MobileHeader() {
   return (
-     <div style={{textAlign:'center'}}>
-         <ThunderboltTwoTone twoToneColor="#ff9700" />
-     </div> 
-    
+
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGQNGeCib9ix4TtXhItXKkNvKtttxh5wVIVQ&usqp=CAU" className='logo' alt="" />
   )
 }
 
