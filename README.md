@@ -7,6 +7,9 @@
 
 ![Screenshot 2022-02-27 190707](https://user-images.githubusercontent.com/76250685/155884651-60d698a0-d89f-4ade-bfa8-57eed871c09e.png)
 
+<h2>Email: eve.holt@reqres.in<h2/>
+<h2>Password can be anything.<h2/>
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
