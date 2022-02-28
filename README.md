@@ -7,8 +7,9 @@
 
 ![Screenshot 2022-02-27 190707](https://user-images.githubusercontent.com/76250685/155884651-60d698a0-d89f-4ade-bfa8-57eed871c09e.png)
 
-<h2>Email: eve.holt@reqres.in<h2/>
-<h2>Password can be anything.<h2/>
+<h2>Hosted site: https://kind-austin-843ccd.netlify.app</h2>
+<h3>Email: eve.holt@reqres.in<h3/>
+<h3>Password can be anything.<h3/>
 
 # Getting Started with Create React App
 
